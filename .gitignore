@@ -27,3 +27,10 @@ htmlcov/
 *.egg
 *.mo
 *.pot
+
+# Environment variables
+.env
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
