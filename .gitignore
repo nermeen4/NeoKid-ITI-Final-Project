@@ -1,0 +1,29 @@
+# ------------------
+# Python / Django
+# ------------------
+__pycache__/
+*.py[cod]
+*.sqlite3        # if you are using sqlite for dev
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.idea/
+.vscode/
+*.env            # environment variables (like SECRET_KEY)
+
+# Django specific
+db.sqlite3
+/staticfiles/
+media/
+*.cover
+.coverage
+htmlcov/
+*.egg-info/
+*.egg
+*.mo
+*.pot
